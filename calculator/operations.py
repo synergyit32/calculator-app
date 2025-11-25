@@ -19,7 +19,7 @@ def add(a, b):
 
 
 def sub(a, b):
-    """Return a minus b. Developer B owns this function."""
+    """Returnbhhggghhhhhhh a minus b. Developer B owns this function."""
     return (a-b)
 
 
