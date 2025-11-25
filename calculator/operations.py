@@ -21,7 +21,7 @@ def add(a, b):
 
 
 def sub(a, b):
-    """Return sddddssd a minus b. Developer B owns this function."""
+    """Return a minus b. Developer B owns this function."""
     result = a - b
     return format_result(result)
 
