@@ -12,6 +12,8 @@ This shared file is intentional. You will probably create merge conflicts.
 That's part of the exercise.
 """
 
+def format_result(result):
+    return f"Computation gives {result}"
 
 def add(a, b):
     """Return the sum of a and b. Developer A owns this function."""
@@ -19,8 +21,9 @@ def add(a, b):
 
 
 def sub(a, b):
-    """Return sddddssd a minus b. Developer B owns this function."""
-    return (a-b)
+    result = a - b
+    return format_result(result)
+
 
 
 def mul(a, b):
