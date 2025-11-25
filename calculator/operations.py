@@ -19,15 +19,18 @@ def add(a, b):
 
 
 def sub(a, b):
-    """Return a minus b. Developer B owns this function."""
-    pass
+    """Return sddddssd a minus b. Developer B owns this function."""
+    return (a-b)
 
 
 def mul(a, b):
-    """Return the ???product of a and b. Developer C owns this function."""
+    """Return the product of a and b. Developer C owns this function."""
     return (a*b)
 
 
 def div(a, b):
     """Return a divided by b. Developer D owns this function."""
-    pass
+    try:
+        return a/b
+    except ZeroDivisionError:
+        return "Error: Can't divide by zero"
