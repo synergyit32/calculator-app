@@ -28,9 +28,12 @@ def mul(a, b):
     return (a*b)
 
 
+def format_result(result):
+    return f"Output value: {result}"
+
 def div(a, b):
     """Return a divided by b. Developer D owns this function."""
-    try:
-        return a/b
-    except ZeroDivisionError:
-        return "Error: Can't divide by zero"
+    if b == 0:
+        raise ValueError("Cannot divide by zero")
+    result = a / b
+    return format_result(result)
