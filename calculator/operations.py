@@ -20,7 +20,8 @@ def add(a, b):
 
 def sub(a, b):
     """Return sddddssd a minus b. Developer B owns this function."""
-    return (a-b)
+    result = (a-b)
+    return result
 
 
 def mul(a, b):
